@@ -21,3 +21,17 @@ We are asking: is there a significant difference in recommended gun control acti
 
 Now I (Kyle Monper aka Moo) am adding text:
 Hi Pi!
+
+Hi Pi!
+The apple I had for lunch was gross. I spit it out and threw it away...
+
+Data Science again...
+
+Jenny: Data wrangling and counts
+
+```{r}
+get_guns <- gc_df %>% 
+  filter(gender != "NA", make_get_guns != "NA") %>% 
+  count(gender, make_get_guns)
+```
+
